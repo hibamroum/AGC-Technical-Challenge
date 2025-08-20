@@ -15,4 +15,5 @@ Issue: **Women’s safety in public spaces** (streets, transit, etc.).
 ```bash
 cp .env.example .env   # fill MISTRAL_API_KEY
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+uvicorn src.main:app --reload
+
